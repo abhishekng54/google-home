@@ -1,0 +1,102 @@
+html{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+
+ul {
+    list-style-type: none;
+    line-height: 30px;
+    padding: 0 20px;
+    margin: 2px;
+    color: black
+}
+
+li {
+    display: inline;
+  }
+  
+  li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    padding: 0 9px;
+}
+.left {
+    float: left; 
+}
+
+.right {
+    float: right;
+}
+#nav {
+    height: 24px;
+    vertical-align: middle;
+    margin-top: 18px;
+}
+.parent{
+    text-align: center;
+}
+
+.glogo{
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+#sign-in{
+    background-color: blue;
+    color: #FFF;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.search-container{
+    border: 1px solid;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 480px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px;
+    color: rgb(220, 220, 220);
+}
+
+.searchbar {
+    height: 30px;
+	width: 440px;
+    border: none;
+}
+
+.search-btn{
+    font-family: arial, sans-serif;
+    background-color: rgb(242, 242, 242);
+    border-radius: 4px; 
+    padding: 10px 24px;
+    border: none;
+    font-weight: bold;
+    color: #757575;
+}
+
+.search-container:hover {
+	box-shadow: 2px 3px 3px ;
+}
+
+.voice-control{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.footer{
+    position: absolute;
+    padding: 5px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    background-color: rgb(242, 242, 242);
+}
+.footer ul{
+    margin: 7px;
+}
